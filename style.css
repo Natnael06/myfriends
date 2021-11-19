@@ -1,6 +1,20 @@
-ul li{
-     list-style-type: none;
-    display: inline;
+.navbar ul li{
+  list-style-type: none;
+  display: inline;
+}
+
+.pic ul li{
+  list-style-type: none;
+  display: inline;
+}
+.right-box{
+  width: calc(30% - 30px);
+  height: 700px;
+  border: 2px solid black;
+  float: right;
+  position: relative;
+  bottom: 280px; 
+  border-radius: 70px;
 }
 .img-levi{
   height: 300px;
