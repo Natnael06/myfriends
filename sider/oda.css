@@ -1,0 +1,39 @@
+body{
+    background-color: #83817e;
+    background-image: linear-gradient(315deg, #444546 0%, #414141 74%);
+}
+
+.text-box{
+    position: absolute;
+    left: 600px;
+    top: 50px;
+    text-align: center;
+    width: calc(30% - 30px);
+    height: calc(100% - 100px);
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50px;
+    box-shadow: 30px 30px 30px 30px rgb(2,2,2,.2);
+    transition: 1s;
+}
+.text-box:hover{
+    transform: scale(1.08);
+    border: 0 solid black;
+    background-color: #444546, #83817e;
+    background-image: linear-gradient(315deg, #444546 0%, #3d3d3d 74%);
+}
+.img-1{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    filter: grayscale(100%);
+    box-shadow: 30px 30px 30px 30px rgb(2,2,2,.2);
+    transition: 2s;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.img-1:hover{
+    transform: scale(1.15);
+    filter: grayscale(0%);
+}
