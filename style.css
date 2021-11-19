@@ -1,6 +1,16 @@
-.navbar ul li{
+.navbar li{
   list-style-type: none;
   display: inline;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: left;
+  background-color: #dddddd;
+}
+
+.navbar li a{
+  display: block;
+  padding: 14px 16px;
 }
 
 .pic ul li{
@@ -9,12 +19,12 @@
 }
 .right-box{
   width: calc(30% - 30px);
-  height: 700px;
-  border: 2px solid black;
+  height: 1000px;
   float: right;
   position: relative;
   bottom: 280px; 
   border-radius: 70px;
+  box-shadow: 30px 30px 30px 30px rgb(2,2,2,.2);
 }
 .img-levi{
   height: 300px;
@@ -24,7 +34,8 @@
   filter: grayscale(100%);
   box-shadow: 30px 30px 30px 30px rgb(2,2,2,.2);
   position: relative;
-  top: 400px;
+  right: 200px;
+  top: 600px;
   transition: 2s;
 }
 .img-kris{
@@ -35,7 +46,8 @@
     filter: grayscale(100%);
     box-shadow: 30px 30px 30px 30px rgb(2,2,2,.2);
     position: relative;
-    right: 280px;
+    right: 480px;
+    top: 200px;
     transition: 2s;
   }
  .img-sander{
@@ -46,7 +58,8 @@
     filter: grayscale(100%);
     box-shadow: 30px 30px 30px 30px rgb(2,2,2,.2);
     position: relative;
-    right: 170px;
+    top: 210px;
+    right: 370px;
     transition: 2s;
   }
 .img-deadlift{
@@ -57,21 +70,11 @@
     filter: grayscale(100%);
     box-shadow: 30px 30px 30px 30px rgb(2,2,2,.2);
     position: relative;
-    right: 22px;
+    right: 222px;
+    top: 210px;
     transition: 2s;
   }
-.img-nora{
-    height: 300px;
-    width: 300px;
-    border-radius: 150px;
-    opacity: 100%;
-    filter: grayscale(100%);
-    box-shadow: 30px 30px 30px 30px rgb(2,2,2,.2);
-    position: relative;
-    right: 775px;
-    top: 415px;
-    transition: 2s;
-  }
+
   .img-oda{
     height: 300px;
     width: 300px;
@@ -80,8 +83,8 @@
     filter: grayscale(100%);
     box-shadow: 30px 30px 30px 30px rgb(2,2,2,.2);
     position: relative;
-    right: 775px;
-    top: 415px;
+    right: 975px;
+    top: 600px;
     transition: 2s;
   }
 
